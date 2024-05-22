@@ -1,0 +1,6 @@
+---
+engines:
+  - name: "codeclimate"
+    config:
+      - "exclude_paths: ["**/*.g.dart", "**/*.freezed.dart", "**/generated/"]"
+      - "plugins: [ "codeclimate-engine-ruby", ]"
